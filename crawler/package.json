@@ -1,0 +1,29 @@
+{
+  "name": "minimal-nodejs-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard",
+    "lint-fix": "semistandard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesgarpas/minimal-nodejs-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesgarpas/minimal-nodejs-config/issues"
+  },
+  "homepage": "https://github.com/cesgarpas/minimal-nodejs-config#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "semistandard": "^14.2.0"
+  },
+  "semistandard": {
+    "ignore": [
+      "/tests/**"
+    ]
+  }
+}
